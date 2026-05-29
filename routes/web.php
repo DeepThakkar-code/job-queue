@@ -15,6 +15,9 @@ Route::get('email-test', function () {
     dd('done');
 });
 
+Route::get('/hello', function () {
+    return view('hello');
+});
 
 
 
